@@ -1,7 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import Components from './components/formsOne';
+// import App from './components/app';
+// import Time from './components/time';
+// import Forms from './components/Forms';
 
 ReactDOM.render(
-<App/>
+    <div>
+{/* <App/>
+<Time/> */}
+{/* <Forms/> */}
+<Components/>
+    </div>
+
     ,document.getElementById('root'));
