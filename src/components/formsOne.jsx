@@ -11,8 +11,18 @@ function Components() {
 function handleChange(event) {
 const {value,name} =event.target;
 
-setContacts(prevVlue =>({ ...prevVlue, [name]: value}));
+setContacts(prevVlue => {
+  return{
+    ...prevVlue,
+     [name]: value
+    };
+});
 }
+
+
+
+// setContacts(prevVlue =>({ ...prevVlue, [name]: value}));
+// }
 // setContacts(prevValue => {
 // if(name === "fName"){
 //   return {
